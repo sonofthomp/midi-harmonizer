@@ -171,7 +171,7 @@ def get_length_of_midi(mid: MidiFile, tempo: int, note_times: list[list[int]]) -
 		for pitch_blocks in note_times
 		for start_time, end_time in pitch_blocks
 	])
-	return (tempo / 1_000_000) * (total_ticks / mid.ticks_per_beat) / 1.6
+	return (tempo / 1_000_000) * (total_ticks / mid.ticks_per_beat)
 
 
 def gen_tone_of_length(seconds: float, freq=200.0) -> np.array:
