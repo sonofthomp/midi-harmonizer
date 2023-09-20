@@ -5,9 +5,9 @@ Python tool for [pitch-shifting](https://en.wikipedia.org/wiki/Pitch_shifting) M
 #### Usage
  1. Clone the GitHub repo to your computer with `git clone https://github.com/sonofthomp/midi-harmonizer.git`
  2. Install the package requirements with `pip install -r requirements.txt`
- 3. The harmonization happens in two steps. First, generate a "tone file" -- this will be an MP3 file which you should use a guide to sing the melody of the song to. You can generate this with: `python3 gen_tone.py <path to MIDI file, should end with .mid> <path to output tone file, should end with .mp3>`
+ 3. The harmonization happens in two steps. First, generate a "tone file" -- this will be an MP3 file which you should use a guide to sing the melody of the song to. You can generate this with: `python3 gen_tone.py <path to MIDI file, should end with .mid> <path you want the tone outputted to, should end with .mp3>`
  4. Record yourself singing along to the "tone file" generated from the MIDI file. Store this in a file somewhere on your computer and take note of its location.
- 5. From the same directory as the cloned repo, run `python3 gen_harmonies.py <path to MIDI file, should end with .mid> <path to you singing, should end with .mp3> <path to harmonized output file, should end with .mp3>`
+ 5. From the same directory as the cloned repo, run `python3 gen_harmonies.py <path to MIDI file, should end with .mid> <path to you singing, should end with .mp3> <path you want the pitch-corrected version outputed to, should end with .mp3>`
 
 #### Samples:
  - ["Auld Lang Syne"](https://drive.google.com/file/d/1xyOqZ27ZsNG_-O0BwCoFYj3t36gOs7qO/view?usp=drive_link) (traditional)
