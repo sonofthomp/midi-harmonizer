@@ -1,4 +1,4 @@
-# PSOLA-based MIDI vocal harmonizer
+# MIDIHarm - a PSOLA-based MIDI vocal harmonizer
 
 Python tool for [pitch-shifting](https://en.wikipedia.org/wiki/Pitch_shifting) MP3 files to MIDI files.
 
