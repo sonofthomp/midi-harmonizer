@@ -3,7 +3,7 @@
 Python tool for [pitch-shifting](https://en.wikipedia.org/wiki/Pitch_shifting) MP3 files to MIDI files.
 
 #### Usage
- 1. Clone the GitHub repo to your computer with `git clone https://github.com/sonofthomp/midi-harmonizer.git`
+ 1. Clone the GitHub repo to your computer with `git clone https://github.com/sonofthomp/midi-harmonizer.git`. Run `cd midi-harmonizer` to enter the directory.
  2. Install the package requirements with `pip install -r requirements.txt`
  3. The harmonization happens in two steps. First, generate a "tone file" -- this will be an MP3 file which you should use a guide to sing the melody of the song to. You can generate this with: `python3 gen_tone.py <path to MIDI file, should end with .mid> <path you want the tone outputted to, should end with .mp3>`
  4. Record yourself singing along to the "tone file" generated from the MIDI file. Store this in a file somewhere on your computer and take note of its location.
